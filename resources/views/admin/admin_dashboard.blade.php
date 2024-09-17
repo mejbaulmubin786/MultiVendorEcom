@@ -149,7 +149,7 @@
 </div>
 <!--end switcher-->
 <!-- Bootstrap JS -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('adminbackend/assets/js/bootstrap.bundle.min.js')}}"></script>
 <!--plugins-->
 <script src="{{ asset('adminbackend/assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('adminbackend/assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
