@@ -8,7 +8,13 @@ use Illuminate\Support\Facades\Auth;
 class AdminController extends Controller
 {
     public function AdminDashboard(){
-        return view('admin.index');
+        return view('admin.admin_login');
+    }
+
+
+    public function AdminLogin()
+    {
+        return view('admin.admin_login');
     }
 
     public function AdminDestroy(Request $request)
